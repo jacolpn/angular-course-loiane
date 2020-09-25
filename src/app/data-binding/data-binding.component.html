@@ -1,0 +1,14 @@
+<section class="data-binding-section">
+  <button
+    class="btn btn-primary"
+    (click)="dataBindingDiv = !dataBindingDiv"
+  >
+    O que foi aprendido no capítulo de 'DataBinding'?
+  </button>
+  <div
+    class="data-binding-content"
+    [style.display]="dataBindingDiv == true ? 'block' : 'none'"
+  >
+    <p>dataBinding</p>
+  </div>
+</section>

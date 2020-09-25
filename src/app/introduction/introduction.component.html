@@ -1,6 +1,17 @@
 <section class="introduction-section">
-  <p>Hello world's!</p>
-  <p>I'm first component.</p>
-  <p>Good bye !!</p>
+  <button
+    class="btn btn-primary"
+    (click)="introductionDiv = !introductionDiv"
+  >
+    O que foi aprendido no capítulo de 'Introdução'?
+  </button>
+  <div
+    class="introduction-content"
+    [style.display]="introductionDiv == true ? 'block' : 'none'"
+  >
+    <p>Hello world's!</p>
+    <p>I'm first component.</p>
+    <p>Good bye !!</p>
+  </div>
 </section>
 

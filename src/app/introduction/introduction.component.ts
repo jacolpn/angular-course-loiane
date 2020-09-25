@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroductionComponent implements OnInit {
 
+  introductionDiv: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
