@@ -1,6 +1,6 @@
 <section class="data-binding-section">
   <button
-    class="btn btn-primary"
+    class="btn btn-dark"
     (click)="dataBindingDiv = !dataBindingDiv"
   >
     O que foi aprendido no capítulo de 'DataBinding'?
@@ -9,6 +9,19 @@
     class="data-binding-content"
     [style.display]="dataBindingDiv == true ? 'block' : 'none'"
   >
-    <p>dataBinding</p>
+    <p>
+      Interpolação:
+      <b> Ex:</b> {{ interpolacao }}
+    </p>
+    <p>
+      [Property Binding]:
+      <b> Ex: </b>
+      <code> {{ propertyBinding }} </code>
+    </p>
+    <p>
+      (Event Binding):
+      <b> Ex: </b>
+      <code> {{ eventBinding }} </code>
+    </p>
   </div>
 </section>
