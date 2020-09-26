@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
 
   dataBindingDiv: boolean = false;
+  interpolacao: string = "{{ variável }}";
+  propertyBinding: string = "<button [class]='alert'>";
+  eventBinding: string = "<button (click)='botaoClicado()'>";
 
   openSection() {
     this.dataBindingDiv = !this.dataBindingDiv;
