@@ -23,5 +23,20 @@
       <b> Ex: </b>
       <code> {{ eventBinding }} </code>
     </p>
+    <p>
+      [(Two-way data binding)]:
+      <code> {{ twoBinding }} </code>
+    </p>
+    <p>
+      Input Property:
+      <code> {{ inputProperty }} </code>
+    </p>
+    <p>
+      Output Property:
+      <code>
+        <input type="text" [value]="valorInput" readonly #campoInput>
+        <button class="btn btn-primary" (click)="incrementaInput()">+</button>
+      </code>
+    </p>
   </div>
 </section>
