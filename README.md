@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
+## Required Installation
+Plugins VSCode:
+*	TSLint - Microsoft
+*	EditorConfig - EditorConfig (https://editorconfig.org/#download)
+*	HTML Snippets - Mohamed Abusaid
+*	Auto Import - steoates
+*	Angular2 - Balram Chavan
+*	Angulr Snippets - John Papa
+*	HTML Snippets - Mohame abusaid
+	
+Instalar Angular: npm install -g @angular/cli
+Instalar TypeScript: npm install -g typescript
+Ver versão TypeScript: tsc -v
+Ver versão do angular: ng -v
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
