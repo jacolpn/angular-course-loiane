@@ -1,5 +1,5 @@
 <section class="data-binding-section">
-  <button
+  <!-- <button
     class="btn btn-dark"
     (click)="dataBindingDiv = !dataBindingDiv"
   >
@@ -8,7 +8,7 @@
   <div
     class="data-binding-content"
     [style.display]="dataBindingDiv == true ? 'block' : 'none'"
-  >
+  > -->
     <p>
       Interpolação:
       <b> Ex:</b> {{ interpolacao }}
@@ -25,6 +25,7 @@
     </p>
     <p>
       [(Two-way data binding)]:
+      <code> {{ twoBindingImport }} </code>
       <code> {{ twoBinding }} </code>
     </p>
     <p>
@@ -38,5 +39,5 @@
         <button class="btn btn-primary" (click)="incrementaInput()">+</button>
       </code>
     </p>
-  </div>
+  <!-- </div> -->
 </section>

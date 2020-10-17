@@ -1,27 +1,12 @@
 * {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: darkcyan;
-  color: aliceblue;
+  background-color: darkslategray;
+  color: azure;
   font-size: 1.2rem;
   width: 100vw;
   height: 100vh;
 }
 
-body {
-  display: flex;
-}
-
 section {
   width: 100%;
   height: 100%;
-}
-
-.introduction-section {
-  color: floralwhite;
-}
-
-.data-binding-section {
-  color: floralwhite;
 }

@@ -1,0 +1,33 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link"
+      [class.active]="aba == 'introduction'"
+      (click)="aba = 'introduction'">
+      Introdução
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"
+      [class.active]="aba == 'data-binding'"
+      (click)="aba = 'data-binding'">
+      Data Binding
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"
+      [class.active]="aba == 'diretivas'"
+      (click)="aba = 'diretivas'">
+      Diretivas
+    </a>
+  </li>
+</ul>
+
+<div class="container" [ngSwitch]="aba">
+  <p *ngSwitchDefault>
+    <introduction></introduction>
+  </p>
+  <p *ngSwitchCase="'data-binding'">
+    <dataBinding [inputProperty]="inputPropertyText"></dataBinding>
+  </p>
+  <p *ngSwitchCase="'diretivas'">Modo lista ativado.</p>
+</div>

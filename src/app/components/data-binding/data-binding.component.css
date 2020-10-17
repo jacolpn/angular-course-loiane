@@ -13,3 +13,11 @@
 input {
   width: 29px;
 }
+
+code {
+  color: aqua;
+}
+
+button {
+  margin-left: 5px;
+}
