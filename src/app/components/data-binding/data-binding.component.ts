@@ -12,6 +12,7 @@ export class DataBindingComponent implements OnInit {
   propertyBinding: string = "<button [class]='alert'>";
   eventBinding: string = "<button (click)='botaoClicado()'>";
   twoBinding: string = "<button [(ngModel)]='nome'>";
+  twoBindingImport: string = "import { FormsModule } from '@angular/forms';";
   valorInput: number = 0;
 
   @Input('inputProperty') inputProperty: string = '';

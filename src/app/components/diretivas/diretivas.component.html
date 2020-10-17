@@ -1,0 +1,112 @@
+<p>
+  ngIf:
+  <b> Ex:</b>
+  <code *ngIf="ngIf.length > 0">
+    {{ ngIf }}
+  </code>
+</p>
+<!-- nfSwitch -->
+<!-- <div class="ngSwitch">
+  <a class="nav-link" (click)="ngSwitch = 'One'">
+    One
+  </a>
+  <a class="nav-link" (click)="ngSwitch = 'Two'">
+    Two
+  </a>
+  <a class="nav-link" (click)="ngSwitch = 'Three'">
+    Three
+  </a>
+</div>
+<div class="container" [ngSwitch]="ngSwitch">
+  <p *ngSwitchCase="'Two'">Modo two.</p>
+  <p *ngSwitchCase="'Three'">Mode three.</p>
+  <p *ngSwitchDefault>Mode one.</p>
+</div> -->
+
+<p>
+  ngSwitch:
+  <b> Ex:</b>
+  <code>
+    {{ ngSwitch }}
+  </code>
+</p>
+
+<!-- <ul>
+  <li *ngFor="let ngfor of ngFor, let i = index">
+    {{ i + 1 }} {{ ngfor }}
+  </li>
+</ul> -->
+
+<p>
+  ngFor:
+  <b> Ex:</b>
+  <code>
+    {{ ngFor }}
+  </code>
+</p>
+
+<!-- <div class="ngClass-wrapper">
+  <a class="nav-link" (click)="ngClass = false">
+    Blue
+  </a>
+
+  <a class="nav-link" (click)="ngClass = true">
+    Green
+  </a>
+
+  <div class="circle"
+    [ngClass]="{
+      'blue' : !ngClass,
+      'green' : ngClass
+    }"
+  >
+  </div>
+</div> -->
+
+<p>
+  ngClass:
+  <b> Ex:</b>
+  <code>
+    {{ ngClass }}
+  </code>
+</p>
+
+
+<!-- <button
+  [ngStyle]="{
+    'backgroundColor': (ngStyle ? 'blue' : 'gray'),
+    'color': (ngStyle ? 'white' : 'black'),
+    'fontWeight': (ngStyle ? 'bold' : 'normal'),
+    'fontSize': tamanhoFonte + 'px'
+  }"
+  (click)="ngStyle = !ngStyle"
+>
+  Click-me
+</button> -->
+
+<p>
+  ngStyle:
+  <b> Ex:</b>
+  <code>
+    {{ ngStyle }}
+  </code>
+</p>
+
+<!--
+  // ANTIGO
+<p>
+  Responsável: {{ tarefa.responsavel != null ? tarefa.responsavel.nome : '' }}
+</p>
+
+  // ELVIS - Retorna vazio quando não acha a informação no array.
+<p>
+  Responsável: {{ tarefa.responsavel?.usuario?.nome }}
+</p> -->
+
+<p>
+  Operador Elvis:
+  <b> Ex:</b>
+  <code>
+    {{ elvis }}
+  </code>
+</p>

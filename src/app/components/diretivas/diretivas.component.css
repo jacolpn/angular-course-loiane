@@ -1,0 +1,30 @@
+.ngSwitch {
+  display: flex;
+}
+
+a {
+  cursor: pointer;
+}
+
+.ngClass-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+code {
+  color: aqua;
+}
